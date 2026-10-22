@@ -1,0 +1,8 @@
+{
+  "status": "PASS_PACKED_NOISE_TRAINING_STEP_EXACT",
+  "time": "2026-10-22T04:32:21.671928+00:00",
+  "trainable_tensors": 592,
+  "trainable_parameters": 34008448,
+  "one_optimizer_step_all_updated_parameters_bitwise_equal": true,
+  "source_assets_not_modified": true
+}

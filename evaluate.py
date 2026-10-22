@@ -4,6 +4,8 @@ import argparse,os,sys,json
 ROOT_REPO=Path(__file__).resolve().parent;sys.path.insert(0,str(ROOT_REPO/'src'))
 from portable_setup import configure
 def main(a):
+    if a.subset is None:a.subset='all' if a.cohort=='navtest' else 'validation'
+    if a.cohort=='navtest':assert a.subset=='all','navtest uses --subset all'
     configure(a.paths,a.data,a.out)
     from d4_common import ROOT,REPO,read,sha,atomic,seed,setup,compatibility,stamp
     setup('evaluation');compatibility()
@@ -65,5 +67,5 @@ def main(a):
     print(json.dumps(dict(cases=len(done),PDMS=float(q[:,:,0].mean()*100))),flush=True)
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--paths',required=True);p.add_argument('--data',required=True);p.add_argument('--out',required=True);p.add_argument('--group',choices=['H','T','HT'],default='HT');p.add_argument('--checkpoint')
-    p.add_argument('--cohort',choices=['navtrain','navtest'],default='navtrain');p.add_argument('--subset',choices=['all','exploration','validation'],default='validation');p.add_argument('--tokens');p.add_argument('--limit',type=int,default=0)
+    p.add_argument('--cohort',choices=['navtrain','navtest'],default='navtrain');p.add_argument('--subset',choices=['all','exploration','validation'],default=None);p.add_argument('--tokens');p.add_argument('--limit',type=int,default=0)
     p.add_argument('--rank',type=int,default=0);p.add_argument('--world-size',type=int,default=1);p.add_argument('--noises',default='0,1,2,3,4');p.add_argument('--noise-bank');main(p.parse_args())
