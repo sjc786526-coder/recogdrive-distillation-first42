@@ -1,0 +1,21 @@
+{
+  "status": "PASS_COMPLETE_REPLAY_CLOSURE_REAL_GOLDENS_AND_TRAINING",
+  "time": "2026-10-22T07:20:12.255946+00:00",
+  "candidate_definitions": 42,
+  "unique_original_parameters": 37,
+  "golden_scenes": 14,
+  "teacher_trajectories": 70,
+  "Base_trajectories": 70,
+  "all_original_target_arrays_bitwise_equal": true,
+  "all_actual_PDMS_fields_bitwise_equal": true,
+  "new_replayed_teacher_used_for_actual_training": true,
+  "one_optimizer_step_all_updated_parameters_bitwise_equal_to_previous_original_teacher_training": true,
+  "trainable_parameter_tensors": 592,
+  "original_assets_not_modified": true,
+  "A800_or_multicard_verified": false,
+  "formal_scientific_experiment_not_run": true,
+  "final_replay_code_sha256": "dd4c34e7163736ab71060a92e3a6534b7141fc17967a13fa11c4f1963d3e41b7",
+  "final_wrapper_goldens_rechecked": true,
+  "all_42_candidate_semantics_checked": true,
+  "model_file_identity_verified_before_replay": true
+}

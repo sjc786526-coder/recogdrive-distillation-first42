@@ -1,0 +1,9 @@
+{
+  "status": "PASS_ALL_42_EXECUTABLE_SEMANTICS_AND_ANONYMOUS_REMOTE_BYTES",
+  "time": "2026-10-22T07:22:38.094393+00:00",
+  "all_42_entries_equal_except_paths_and_removed_source_descriptions": true,
+  "anonymous_HF_bundle_range_exact": true,
+  "HF_commit": "d8b614a22b7fff819df33c4ff9f7fb610371baf8",
+  "bundle_sha256": "1b38facfb006ba1849afcd54721a0efcdb9d344a54697c5fc3ee67a1c7a3dbf4",
+  "public_bundle_bytes": 510327947
+}

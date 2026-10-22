@@ -52,6 +52,11 @@ def main(a):
         development_indices=str(REPO/'manifests/DEVELOPMENT_512_V1.json'),source_original_configuration_sha256=sha(config_path))
     for field in ['scene_manifest','train_indices','development_indices']:config[field+'_sha256']=sha(config[field])
     config.pop('code_hashes',None)
+    teacher_root=Path(a.data)
+    config['teacher_index_sha256']=sha(teacher_root/'manifests/TEACHER_INDEX.json')
+    config['replayed_teacher_identity_sha256']=sha(teacher_root/'REPLAY_IDENTITY.json') if (teacher_root/'REPLAY_IDENTITY.json').exists() else None
+    if config['replayed_teacher_identity_sha256']:
+        assert (teacher_root/'TEACHER_READY.json').exists() or (a.smoke_indices and a.max_steps>0 and (teacher_root/'ENGINEERING_ONLY.json').exists()),'Finish/audit the locally replayed teacher dataset before formal training'
     if a.smoke_indices:
         assert a.max_steps>0
         config['train_indices']=str(Path(a.smoke_indices).resolve());config['train_indices_sha256']=sha(config['train_indices']);config['engineering_only']=True

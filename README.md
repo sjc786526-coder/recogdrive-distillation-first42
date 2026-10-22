@@ -5,7 +5,7 @@
 代码：https://github.com/sjc786526-coder/recogdrive-distillation-first42  
 权重与数据：https://huggingface.co/datasets/WHU-SJC/recogdrive-distillation-first42
 
-**数据正在上传。必须以HF仓库最后的完整清单和SHA校验结果判断交付是否齐全。** 原始实验资产未移动、覆盖或重新量化。这里的适配和工程计算都发生在独立交付副本。
+**约414GB的教师分片上传已按用户要求停止，HF中的`teacher/`不完整。** 改用[本地生成固定R2教师](TEACHER_REPLAY.md)：下载约1.06GB的冻结参数、golden、原始噪声和必要参考清单，即可在已有模型与数据上重放已选分支。原始实验资产未移动、覆盖或重新量化。
 
 ## 交付什么
 
@@ -52,10 +52,12 @@ git clone https://github.com/sjc786526-coder/recogdrive-distillation-first42.git
 cd recogdrive-distillation-first42
 
 # 使用已有环境的huggingface_hub CLI；下载到最终目录，避免再手工复制一份
-hf download WHU-SJC/recogdrive-distillation-first42 --repo-type dataset --local-dir /your/storage/first42-data
+python -B download_teacher_assets.py --data /your/storage/first42-reference
+python -B prepare_teacher.py --data /your/storage/first42-reference
+# 接着按TEACHER_REPLAY.md生成 /your/storage/first42-data，供本页后续命令使用
 ```
 
-教师tar已经包着压缩NPZ，不需要再整批解压。数据读取器按索引从tar偏移直接读取原始NPZ字节并核对SHA，避免压缩包与解包目录各占一份。建议为交付数据留500～600GB，再另外留训练输出空间。可以先只下`manifests/*`、`reference/*`、`results/*`、`checkpoints/*`做结果分析；完整H／T／HT复训需要教师分片。
+本地重新生成的教师按场景存储压缩NPZ；完整数据仍约420GB。历史教师tar已经包着压缩NPZ，不需要再整批解压。数据读取器按索引从tar偏移直接读取原始NPZ字节并核对SHA，避免压缩包与解包目录各占一份。建议为交付数据留500～600GB，再另外留训练输出空间。可以先只下`manifests/*`、`reference/*`、`results/*`、`checkpoints/*`做结果分析；完整H／T／HT复训使用在当地生成并验收的教师数据。
 
 ## 配本地路径，先检查和冒烟
 
@@ -71,6 +73,10 @@ python -B analyze.py --data /your/storage/first42-data --out outputs/saved-resul
 # 先用原生RL Base做两场景实际推理与评分（不加载学生checkpoint就是零LoRA的Base）
 CUDA_VISIBLE_DEVICES=0 python -B evaluate.py --paths paths.local.json --data /your/storage/first42-data \
   --cohort navtrain --subset validation --limit 2 --out outputs/base-smoke
+
+# 如需分析已训练权重，按需下载；重新训练无需下载旧学生权重
+hf download WHU-SJC/recogdrive-distillation-first42 checkpoints/HT/epoch05.pt \
+  --repo-type dataset --local-dir /your/storage/first42-data
 
 # 加载HT第5轮；H／T的用法相同
 CUDA_VISIBLE_DEVICES=0 python -B evaluate.py --paths paths.local.json --data /your/storage/first42-data \

@@ -1,0 +1,59 @@
+{
+  "repo": "WHU-SJC/recogdrive-distillation-first42",
+  "repo_type": "dataset",
+  "files": [
+    {
+      "file": "manifests/navtrain_scenes.json",
+      "bytes": 62995760,
+      "sha256": "3b670ba20b9cd58840df13012bebfb6c1bc4c380d4d3f8909b77541cad7d547d"
+    },
+    {
+      "file": "manifests/navtest_scenes.json",
+      "bytes": 7213569,
+      "sha256": "4bd6a6381919845fa93d20848b61b5f8948d4fe7483b6cd9c8e4a1e6439a0d5d"
+    },
+    {
+      "file": "noise/navtrain_noise.npy",
+      "bytes": 297469568,
+      "sha256": "35671a0615d631f5439419a2c4803e2a594db3255c9926ec40450eeb5a48b262"
+    },
+    {
+      "file": "noise/navtest_noise.npy",
+      "bytes": 69961088,
+      "sha256": "3d91d45b64345a5e4c8429aec1ddd0f558e9aa97f8beb706973ea3bb53a94cb2"
+    },
+    {
+      "file": "noise/PROTOCOL.json",
+      "bytes": 962,
+      "sha256": "15b4802d0ea7e59d9399846c75081817eea8567e02512911ba120dd9ba899d29"
+    },
+    {
+      "file": "reference/navtrain/Base_quality.npy",
+      "bytes": 28920768,
+      "sha256": "b620f83908714d865604817c91c8d2beaf9ad6a7969a26f7f66a0d9d00d7aaa6"
+    },
+    {
+      "file": "reference/navtrain/teacher_R2_quality.npy",
+      "bytes": 28920768,
+      "sha256": "944624225a15e369c921ca3a603b16707133b806ec67a2799858b7896f0a6d8f"
+    },
+    {
+      "file": "reference/navtrain/teacher_R2_trajectories.npy",
+      "bytes": 49578368,
+      "sha256": "0d7f4274b499acbbfeb5bc44cb049354a5dc204c43f7dd6fa3c9b06471b73cbc"
+    },
+    {
+      "file": "reference/navtrain/teacher_R2_candidate_index.npy",
+      "bytes": 826432,
+      "sha256": "b9a82e5467238433bfe94af111a07f2de16601d6ad981e217c5ce7ade8149304"
+    },
+    {
+      "file": "teacher_replay_v1/frozen_parameters_and_goldens.tar.gz",
+      "bytes": 510327947,
+      "sha256": "1b38facfb006ba1849afcd54721a0efcdb9d344a54697c5fc3ee67a1c7a3dbf4"
+    }
+  ],
+  "total_download_bytes": 1056215230,
+  "raw_NAVSIM_and_Base_not_included": true,
+  "teacher_tar_shards_not_required": true
+}

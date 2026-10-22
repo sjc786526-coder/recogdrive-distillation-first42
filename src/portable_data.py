@@ -18,12 +18,14 @@ class TeacherStore:
         self.index={v['global_index']:v for v in values};assert len(self.index)==len(values);self.fds=OrderedDict();self.lock=threading.Lock()
     def get(self,index):
         import numpy as np
-        r=self.index[index];path=(self.data/r['shard']).resolve();assert path.is_relative_to(self.data.resolve())
-        with self.lock:
-            if path not in self.fds:
-                self.fds[path]=os.open(path,os.O_RDONLY)
-                if len(self.fds)>8:os.close(self.fds.popitem(last=False)[1])
-            self.fds.move_to_end(path);data=os.pread(self.fds[path],r['bytes'],r['offset'])
+        r=self.index[index];path=(self.data/r.get('npz',r.get('shard',''))).resolve();assert path.is_relative_to(self.data.resolve())
+        if 'npz' in r:data=path.read_bytes()
+        else:
+            with self.lock:
+                if path not in self.fds:
+                    self.fds[path]=os.open(path,os.O_RDONLY)
+                    if len(self.fds)>8:os.close(self.fds.popitem(last=False)[1])
+                self.fds.move_to_end(path);data=os.pread(self.fds[path],r['bytes'],r['offset'])
         assert len(data)==r['bytes'] and hashlib.sha256(data).hexdigest()==r['sha256']
         with np.load(io.BytesIO(data),allow_pickle=False) as z:values={k:np.array(z[k]) for k in z.files}
         assert values['teacher_interface'].dtype==np.float32 and values['teacher_interface'].shape==(r['full_tokens'],384)
