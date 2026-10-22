@@ -1,0 +1,6 @@
+{
+  "lambda_H": 1.0,
+  "lambda_T": 80.21022962075446,
+  "lora_learning_rate": 0.00005,
+  "projection_learning_rate": 0.0001
+}

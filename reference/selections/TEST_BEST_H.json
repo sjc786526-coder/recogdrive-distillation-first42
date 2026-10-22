@@ -1,0 +1,59 @@
+{
+  "status": "FROZEN_TEST_BEST_DIAGNOSTIC_NOT_MAIN_SELECTION",
+  "time": "2026-10-22T03:04:50.760006+00:00",
+  "group": "H",
+  "chosen": {
+    "epoch": 5,
+    "model_id": "student_H_epoch05_c02902c63571920d",
+    "PDMS_S0S4": 90.65021746711724,
+    "summary": "analysis/full_student_evaluation_v1/student_H_epoch05_c02902c63571920d_navtest_S0S9/SUMMARY.json",
+    "summary_sha256": "263d4858523f226f841d0ef55b0f603ed63c41bd1e588f8ecf61e8ec95af08c0",
+    "checkpoint_sha256": "c02902c63571920dc89099b9a9117b9f68e5f69953dc8c13b6c64ac524c8a20a"
+  },
+  "all_epochs": [
+    {
+      "epoch": 1,
+      "model_id": "student_H_epoch01_3e2ad09e20439c1e",
+      "PDMS_S0S4": 90.61587893460845,
+      "summary": "analysis/full_student_evaluation_v1/student_H_epoch01_3e2ad09e20439c1e_navtest_S0S9/SUMMARY.json",
+      "summary_sha256": "22b0c7229ef6c6fe748a80a0019480974bf13fb6c9fa99430af3afa0d9bbced1",
+      "checkpoint_sha256": "3e2ad09e20439c1e5f1a6c7cf989f33ecee56bc600ccd2146acc1bb995bd24eb"
+    },
+    {
+      "epoch": 2,
+      "model_id": "student_H_epoch02_c2b9d359b3025e17",
+      "PDMS_S0S4": 90.62605238825606,
+      "summary": "analysis/full_student_evaluation_v1/student_H_epoch02_c2b9d359b3025e17_navtest_S0S9/SUMMARY.json",
+      "summary_sha256": "47301a5d50dcffc1471ec82c99cdb9b2428a10fd657b3a10c9b3fa05d7c5ffb7",
+      "checkpoint_sha256": "c2b9d359b3025e1701b2aeb1eba44939b6259a10c54e5d4165af498ec7222c17"
+    },
+    {
+      "epoch": 3,
+      "model_id": "student_H_epoch03_210c538861a4ec47",
+      "PDMS_S0S4": 90.60049107995721,
+      "summary": "analysis/full_student_evaluation_v1/student_H_epoch03_210c538861a4ec47_navtest_S0S9/SUMMARY.json",
+      "summary_sha256": "de3b4bec2f0a1c3e49753b434d04365b4672d22633590158f08629efb1fce239",
+      "checkpoint_sha256": "210c538861a4ec4728032340b44b8bde94f63b883a7b9e95db1145c3e1f9335d"
+    },
+    {
+      "epoch": 4,
+      "model_id": "student_H_epoch04_2a813bf2a230db44",
+      "PDMS_S0S4": 90.64644300028385,
+      "summary": "analysis/full_student_evaluation_v1/student_H_epoch04_2a813bf2a230db44_navtest_S0S9/SUMMARY.json",
+      "summary_sha256": "4053903acb94df65da7cafd3d02308de4afc3b1369405eaa18603d48953160f6",
+      "checkpoint_sha256": "2a813bf2a230db44b67c246720fb01d2ef409650088bd1a65ec7923f33284e70"
+    },
+    {
+      "epoch": 5,
+      "model_id": "student_H_epoch05_c02902c63571920d",
+      "PDMS_S0S4": 90.65021746711724,
+      "summary": "analysis/full_student_evaluation_v1/student_H_epoch05_c02902c63571920d_navtest_S0S9/SUMMARY.json",
+      "summary_sha256": "263d4858523f226f841d0ef55b0f603ed63c41bd1e588f8ecf61e8ec95af08c0",
+      "checkpoint_sha256": "c02902c63571920dc89099b9a9117b9f68e5f69953dc8c13b6c64ac524c8a20a"
+    }
+  ],
+  "selection_uses_test": true,
+  "main_checkpoint_selected_here": false,
+  "validation_main_choice_must_not_use_this_record": true,
+  "selection_rule_sha256": "d8fcfa859e163d08d77f3011849d1fa2573be1ac5b028043f23467b462ad21c3"
+}

@@ -1,0 +1,38 @@
+{
+  "status": "FROZEN_USER_CONFIRMED_SELECTIVE_EVALUATION",
+  "time": "2026-10-22T02:55:48.388358+00:00",
+  "supersedes_reporting_scope": "FROZEN_EVALUATION_PROTOCOL_V3.json",
+  "groups": [
+    "H",
+    "T",
+    "HT"
+  ],
+  "epochs": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "sequence": [
+    "all_fifteen_full_tests_S0S9",
+    "all_fifteen_full_validations_S0S4",
+    "selected_remaining_exploration_S0S4"
+  ],
+  "test_cases": 12146,
+  "validation_cases": 17475,
+  "exploration_cases": 85813,
+  "full_navtrain_combined_cases": 103288,
+  "main_checkpoint_rule": "Maximum real PDMS mean over full 17475 validation scenes x S0-S4; ties earlier epoch",
+  "diagnostic_checkpoint_rule": "Maximum test mean PDMS over S0-S4 among all five epochs; ties earlier epoch; diagnostic only",
+  "full_navtrain_evaluate_only": "Union of validation-selected main and test-S0S4-best diagnostic checkpoint per group; at most two",
+  "no_train_or_validation_S5S9": true,
+  "test_S5S9_retained": true,
+  "test_never_used_for_main_checkpoint_choice": true,
+  "selected_training_scope_includes_exploration_E": true,
+  "reuse_exact_existing_executions": true,
+  "no_new_teacher_or_training_or_model_or_scoring_algorithm": true,
+  "all_available_nodes_evaluation_priority": true,
+  "restore_original_batch3_only_after_all_current_evaluation_compute_accepted": true,
+  "no_DLC_release": true
+}

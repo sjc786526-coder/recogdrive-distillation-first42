@@ -1,0 +1,53 @@
+_target_: navsim.agents.recogdrive.recogdrive_agent.ReCogDriveAgent
+_convert_: 'all'
+
+trajectory_sampling:
+  _target_: nuplan.planning.simulation.trajectory.trajectory_sampling.TrajectorySampling
+  _convert_: 'all'
+  time_horizon: 4
+  interval_length: 0.5
+checkpoint_path: ''
+vlm_path: ''
+cam_type: 'single'
+vlm_type: 'internvl'
+dit_type: 'small'
+sampling_method: 'ddim'
+cache_mode: False
+cache_hidden_state: True
+metric_cache_path: ''
+reference_policy_checkpoint: ''
+vlm_size: 'small'
+train_backbone: false
+grpo: False
+lr: 1e-4
+weight_decay: 1e-4
+warmup_ratio: 0.0
+scheduler_epochs:
+optimizer_beta1: 0.9
+optimizer_beta2: 0.95
+scheduler_interval: epoch
+scheduler_steps:
+warmup_steps:
+scheduler_min_lr_ratio:
+action_lora: false
+action_lora_rank: 8
+action_lora_alpha: 16.0
+action_lora_dropout: 0.05
+action_lora_start_layer:
+action_lora_targets:
+  - to_q
+  - to_k
+  - to_v
+  - to_out.0
+llm_lora: false
+llm_lora_rank: 16
+llm_lora_alpha: 32.0
+llm_lora_dropout: 0.05
+llm_lora_start_layer:
+llm_lora_targets:
+  - q_proj
+  - k_proj
+  - v_proj
+  - o_proj
+train_backbone_scope: all
+save_backbone_base: true

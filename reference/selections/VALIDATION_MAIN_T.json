@@ -1,0 +1,70 @@
+{
+  "status": "FROZEN_MAIN_SELECTED_ONLY_ON_FULL_VALIDATION",
+  "time": "2026-10-22T03:45:07.062186+00:00",
+  "group": "T",
+  "chosen": {
+    "epoch": 5,
+    "model_id": "student_T_epoch05_e3d5a53c62373270",
+    "PDMS_S0S4": 94.61133364138928,
+    "checkpoint_sha256": "e3d5a53c62373270caee8e2aacdfb28605773c34c5234410c3529c68566bed6a",
+    "summary": "analysis/full_student_evaluation_v1/student_T_epoch05_e3d5a53c62373270_validation_S0S4/SUMMARY.json",
+    "summary_sha256": "fef713171b64e98546b9f6636e1a19f7385ff7aa262398b27150f3339a05c10b"
+  },
+  "all_epochs": [
+    {
+      "epoch": 1,
+      "model_id": "student_T_epoch01_cab87a609ae3be4c",
+      "PDMS_S0S4": 93.99097270167121,
+      "checkpoint_sha256": "cab87a609ae3be4c1a5134a1a9b0ba128a8fdf62613732413317b21571298bb9",
+      "summary": "analysis/full_student_evaluation_v1/student_T_epoch01_cab87a609ae3be4c_validation_S0S4/SUMMARY.json",
+      "summary_sha256": "ffc5f300086e85d3d8dbf382e6d16832baf95cd4a26ebbb9fbecf6e62792d948"
+    },
+    {
+      "epoch": 2,
+      "model_id": "student_T_epoch02_a886fb0e485e47c9",
+      "PDMS_S0S4": 94.29817122075029,
+      "checkpoint_sha256": "a886fb0e485e47c9669bf4629b70db318c655dfddbd46abc2c5fb462b898a910",
+      "summary": "analysis/full_student_evaluation_v1/student_T_epoch02_a886fb0e485e47c9_validation_S0S4/SUMMARY.json",
+      "summary_sha256": "c2032795b7b3e97eeabf0c30147b41a30830a3df5953388c546a6b62d31a1c07"
+    },
+    {
+      "epoch": 3,
+      "model_id": "student_T_epoch03_51fdfde29e4d0abf",
+      "PDMS_S0S4": 94.45145958104216,
+      "checkpoint_sha256": "51fdfde29e4d0abfd7f9a4e2f00b6c8060671a050beb1b1481580636cac3cc21",
+      "summary": "analysis/full_student_evaluation_v1/student_T_epoch03_51fdfde29e4d0abf_validation_S0S4/SUMMARY.json",
+      "summary_sha256": "499c99c38eb95744fa2e9f00b9f03fd59d727d49ea01577c867eca23f2e79e62"
+    },
+    {
+      "epoch": 4,
+      "model_id": "student_T_epoch04_cab34d4e4cac8a17",
+      "PDMS_S0S4": 94.48505353876048,
+      "checkpoint_sha256": "cab34d4e4cac8a175ea6fd855b5314a3d01ab435644bc4dad7236b632c6c7c2a",
+      "summary": "analysis/full_student_evaluation_v1/student_T_epoch04_cab34d4e4cac8a17_validation_S0S4/SUMMARY.json",
+      "summary_sha256": "eb485ba4c61c98af5c9662508d51ddafee3d56c9ca5c9b8ede9d0374da4fc07f"
+    },
+    {
+      "epoch": 5,
+      "model_id": "student_T_epoch05_e3d5a53c62373270",
+      "PDMS_S0S4": 94.61133364138928,
+      "checkpoint_sha256": "e3d5a53c62373270caee8e2aacdfb28605773c34c5234410c3529c68566bed6a",
+      "summary": "analysis/full_student_evaluation_v1/student_T_epoch05_e3d5a53c62373270_validation_S0S4/SUMMARY.json",
+      "summary_sha256": "fef713171b64e98546b9f6636e1a19f7385ff7aa262398b27150f3339a05c10b"
+    }
+  ],
+  "scenes": 17475,
+  "noises": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "tie_rule": "earlier epoch",
+  "test_or_test_best_read_for_selection": false,
+  "development_512_choice_is_auxiliary_only": true,
+  "training_or_teacher_changed": false,
+  "validation_indices_sha256": "a89aff99c2abdfe1bd7fa91c2e187371127872be56487d89588432e726f51ef7",
+  "protocol_sha256": "d8fcfa859e163d08d77f3011849d1fa2573be1ac5b028043f23467b462ad21c3",
+  "code_sha256": "232da6340963a85bfd02a80c0e6e00a98557fcfa035f73b3200f79f5ce456d6a"
+}

@@ -1,0 +1,6812 @@
+{
+  "time": "2026-10-21T12:30:49.514916+00:00",
+  "rank": 0,
+  "world_size": 16,
+  "device": "PPU-ZW810E",
+  "free_gpu_bytes": 52213360880,
+  "trainable_manifest": {
+    "vision_layers": 24,
+    "language_layers": 28,
+    "lora_modules": [
+      {
+        "name": "vision_model.encoder.layers.0.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.0.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.0.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.0.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.1.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.1.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.1.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.1.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.2.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.2.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.2.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.2.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.3.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.3.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.3.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.3.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.4.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.4.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.4.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.4.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.5.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.5.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.5.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.5.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.6.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.6.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.6.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.6.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.7.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.7.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.7.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.7.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.8.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.8.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.8.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.8.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.9.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.9.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.9.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.9.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.10.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.10.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.10.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.10.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.11.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.11.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.11.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.11.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.12.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.12.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.12.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.12.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.13.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.13.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.13.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.13.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.14.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.14.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.14.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.14.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.15.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.15.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.15.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.15.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.16.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.16.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.16.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.16.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.17.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.17.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.17.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.17.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.18.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.18.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.18.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.18.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.19.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.19.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.19.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.19.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.20.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.20.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.20.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.20.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.21.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.21.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.21.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.21.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.22.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.22.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.22.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.22.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.23.attn.qkv",
+        "in_features": 1024,
+        "out_features": 3072
+      },
+      {
+        "name": "vision_model.encoder.layers.23.attn.proj",
+        "in_features": 1024,
+        "out_features": 1024
+      },
+      {
+        "name": "vision_model.encoder.layers.23.mlp.fc1",
+        "in_features": 1024,
+        "out_features": 4096
+      },
+      {
+        "name": "vision_model.encoder.layers.23.mlp.fc2",
+        "in_features": 4096,
+        "out_features": 1024
+      },
+      {
+        "name": "language_model.model.layers.0.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.0.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.0.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.0.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.0.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.0.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.0.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.1.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.1.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.1.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.1.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.1.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.1.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.1.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.2.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.2.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.2.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.2.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.2.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.2.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.2.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.3.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.3.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.3.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.3.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.3.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.3.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.3.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.4.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.4.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.4.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.4.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.4.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.4.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.4.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.5.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.5.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.5.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.5.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.5.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.5.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.5.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.6.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.6.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.6.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.6.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.6.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.6.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.6.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.7.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.7.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.7.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.7.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.7.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.7.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.7.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.8.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.8.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.8.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.8.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.8.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.8.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.8.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.9.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.9.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.9.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.9.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.9.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.9.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.9.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.10.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.10.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.10.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.10.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.10.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.10.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.10.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.11.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.11.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.11.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.11.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.11.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.11.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.11.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.12.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.12.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.12.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.12.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.12.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.12.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.12.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.13.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.13.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.13.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.13.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.13.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.13.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.13.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.14.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.14.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.14.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.14.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.14.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.14.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.14.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.15.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.15.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.15.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.15.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.15.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.15.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.15.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.16.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.16.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.16.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.16.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.16.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.16.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.16.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.17.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.17.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.17.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.17.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.17.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.17.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.17.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.18.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.18.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.18.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.18.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.18.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.18.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.18.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.19.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.19.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.19.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.19.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.19.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.19.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.19.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.20.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.20.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.20.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.20.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.20.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.20.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.20.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.21.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.21.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.21.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.21.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.21.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.21.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.21.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.22.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.22.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.22.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.22.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.22.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.22.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.22.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.23.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.23.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.23.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.23.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.23.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.23.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.23.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.24.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.24.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.24.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.24.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.24.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.24.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.24.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.25.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.25.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.25.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.25.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.25.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.25.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.25.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.26.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.26.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.26.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.26.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.26.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.26.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.26.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.27.self_attn.q_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.27.self_attn.k_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.27.self_attn.v_proj",
+        "in_features": 1536,
+        "out_features": 256
+      },
+      {
+        "name": "language_model.model.layers.27.self_attn.o_proj",
+        "in_features": 1536,
+        "out_features": 1536
+      },
+      {
+        "name": "language_model.model.layers.27.mlp.gate_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.27.mlp.up_proj",
+        "in_features": 1536,
+        "out_features": 8960
+      },
+      {
+        "name": "language_model.model.layers.27.mlp.down_proj",
+        "in_features": 8960,
+        "out_features": 1536
+      }
+    ],
+    "trainable": [
+      {
+        "name": "agent.action_head.feature_encoder.weight",
+        "shape": [
+          384,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 589824
+      },
+      {
+        "name": "agent.action_head.feature_encoder.bias",
+        "shape": [
+          384
+        ],
+        "dtype": "torch.float32",
+        "count": 384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.0.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.0.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.0.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.0.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.0.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.0.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.0.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.0.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.1.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.1.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.1.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.1.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.1.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.1.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.1.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.1.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.2.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.2.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.2.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.2.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.2.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.2.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.2.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.2.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.3.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.3.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.3.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.3.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.3.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.3.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.3.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.3.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.4.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.4.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.4.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.4.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.4.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.4.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.4.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.4.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.5.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.5.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.5.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.5.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.5.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.5.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.5.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.5.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.6.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.6.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.6.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.6.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.6.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.6.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.6.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.6.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.7.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.7.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.7.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.7.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.7.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.7.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.7.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.7.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.8.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.8.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.8.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.8.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.8.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.8.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.8.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.8.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.9.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.9.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.9.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.9.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.9.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.9.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.9.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.9.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.10.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.10.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.10.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.10.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.10.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.10.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.10.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.10.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.11.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.11.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.11.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.11.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.11.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.11.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.11.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.11.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.12.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.12.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.12.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.12.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.12.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.12.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.12.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.12.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.13.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.13.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.13.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.13.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.13.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.13.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.13.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.13.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.14.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.14.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.14.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.14.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.14.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.14.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.14.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.14.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.15.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.15.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.15.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.15.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.15.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.15.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.15.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.15.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.16.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.16.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.16.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.16.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.16.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.16.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.16.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.16.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.17.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.17.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.17.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.17.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.17.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.17.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.17.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.17.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.18.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.18.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.18.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.18.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.18.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.18.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.18.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.18.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.19.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.19.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.19.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.19.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.19.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.19.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.19.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.19.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.20.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.20.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.20.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.20.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.20.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.20.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.20.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.20.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.21.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.21.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.21.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.21.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.21.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.21.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.21.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.21.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.22.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.22.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.22.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.22.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.22.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.22.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.22.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.22.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.23.inner.attn.qkv.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.23.inner.attn.qkv.B",
+        "shape": [
+          3072,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 49152
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.23.inner.attn.proj.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.23.inner.attn.proj.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.23.inner.mlp.fc1.A",
+        "shape": [
+          16,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.23.inner.mlp.fc1.B",
+        "shape": [
+          4096,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.23.inner.mlp.fc2.A",
+        "shape": [
+          16,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 65536
+      },
+      {
+        "name": "backbone.model.vision_model.encoder.layers.23.inner.mlp.fc2.B",
+        "shape": [
+          1024,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 16384
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.0.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.0.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.0.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.0.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.0.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.0.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.0.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.0.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.0.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.0.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.0.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.0.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.0.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.0.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.1.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.1.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.1.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.1.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.1.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.1.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.1.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.1.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.1.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.1.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.1.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.1.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.1.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.1.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.2.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.2.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.2.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.2.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.2.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.2.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.2.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.2.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.2.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.2.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.2.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.2.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.2.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.2.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.3.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.3.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.3.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.3.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.3.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.3.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.3.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.3.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.3.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.3.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.3.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.3.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.3.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.3.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.4.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.4.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.4.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.4.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.4.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.4.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.4.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.4.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.4.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.4.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.4.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.4.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.4.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.4.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.5.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.5.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.5.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.5.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.5.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.5.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.5.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.5.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.5.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.5.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.5.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.5.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.5.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.5.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.6.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.6.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.6.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.6.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.6.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.6.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.6.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.6.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.6.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.6.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.6.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.6.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.6.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.6.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.7.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.7.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.7.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.7.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.7.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.7.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.7.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.7.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.7.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.7.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.7.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.7.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.7.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.7.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.8.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.8.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.8.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.8.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.8.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.8.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.8.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.8.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.8.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.8.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.8.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.8.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.8.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.8.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.9.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.9.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.9.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.9.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.9.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.9.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.9.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.9.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.9.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.9.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.9.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.9.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.9.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.9.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.10.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.10.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.10.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.10.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.10.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.10.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.10.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.10.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.10.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.10.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.10.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.10.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.10.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.10.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.11.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.11.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.11.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.11.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.11.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.11.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.11.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.11.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.11.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.11.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.11.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.11.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.11.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.11.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.12.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.12.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.12.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.12.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.12.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.12.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.12.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.12.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.12.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.12.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.12.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.12.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.12.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.12.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.13.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.13.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.13.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.13.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.13.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.13.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.13.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.13.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.13.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.13.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.13.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.13.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.13.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.13.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.14.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.14.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.14.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.14.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.14.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.14.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.14.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.14.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.14.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.14.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.14.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.14.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.14.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.14.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.15.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.15.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.15.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.15.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.15.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.15.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.15.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.15.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.15.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.15.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.15.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.15.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.15.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.15.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.16.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.16.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.16.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.16.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.16.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.16.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.16.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.16.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.16.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.16.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.16.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.16.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.16.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.16.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.17.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.17.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.17.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.17.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.17.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.17.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.17.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.17.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.17.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.17.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.17.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.17.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.17.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.17.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.18.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.18.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.18.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.18.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.18.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.18.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.18.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.18.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.18.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.18.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.18.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.18.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.18.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.18.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.19.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.19.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.19.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.19.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.19.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.19.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.19.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.19.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.19.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.19.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.19.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.19.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.19.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.19.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.20.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.20.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.20.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.20.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.20.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.20.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.20.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.20.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.20.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.20.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.20.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.20.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.20.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.20.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.21.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.21.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.21.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.21.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.21.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.21.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.21.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.21.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.21.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.21.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.21.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.21.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.21.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.21.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.22.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.22.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.22.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.22.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.22.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.22.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.22.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.22.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.22.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.22.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.22.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.22.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.22.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.22.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.23.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.23.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.23.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.23.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.23.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.23.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.23.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.23.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.23.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.23.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.23.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.23.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.23.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.23.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.24.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.24.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.24.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.24.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.24.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.24.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.24.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.24.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.24.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.24.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.24.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.24.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.24.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.24.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.25.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.25.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.25.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.25.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.25.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.25.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.25.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.25.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.25.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.25.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.25.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.25.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.25.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.25.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.26.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.26.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.26.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.26.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.26.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.26.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.26.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.26.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.26.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.26.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.26.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.26.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.26.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.26.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.27.inner.self_attn.q_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.27.inner.self_attn.q_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.27.inner.self_attn.k_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.27.inner.self_attn.k_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.27.inner.self_attn.v_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.27.inner.self_attn.v_proj.B",
+        "shape": [
+          256,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.27.inner.self_attn.o_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.27.inner.self_attn.o_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.27.inner.mlp.gate_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.27.inner.mlp.gate_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.27.inner.mlp.up_proj.A",
+        "shape": [
+          16,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.27.inner.mlp.up_proj.B",
+        "shape": [
+          8960,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.27.inner.mlp.down_proj.A",
+        "shape": [
+          16,
+          8960
+        ],
+        "dtype": "torch.float32",
+        "count": 143360
+      },
+      {
+        "name": "backbone.model.language_model.model.layers.27.inner.mlp.down_proj.B",
+        "shape": [
+          1536,
+          16
+        ],
+        "dtype": "torch.float32",
+        "count": 24576
+      },
+      {
+        "name": "backbone.model.mlp1.masters.0",
+        "shape": [
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.mlp1.masters.1",
+        "shape": [
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 4096
+      },
+      {
+        "name": "backbone.model.mlp1.masters.2",
+        "shape": [
+          1536,
+          4096
+        ],
+        "dtype": "torch.float32",
+        "count": 6291456
+      },
+      {
+        "name": "backbone.model.mlp1.masters.3",
+        "shape": [
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 1536
+      },
+      {
+        "name": "backbone.model.mlp1.masters.4",
+        "shape": [
+          1536,
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 2359296
+      },
+      {
+        "name": "backbone.model.mlp1.masters.5",
+        "shape": [
+          1536
+        ],
+        "dtype": "torch.float32",
+        "count": 1536
+      }
+    ],
+    "trainable_parameters": 34008448,
+    "original_frozen_parameters": 2122721028,
+    "full_projection_masters": "backbone.model.mlp1.masters",
+    "full_interface_projection": "agent.action_head.feature_encoder",
+    "action_generation_frozen_eval": true,
+    "native_BF16_VLM_FP32_action": true,
+    "inference_cache_used": false
+  },
+  "broadcast": {
+    "frozen_parameters_sha256_before": "a1fd2cbeb1078439548b6eac68be498d1cfcc5d3bb86e5ae81cdd8f21b011390",
+    "frozen_parameters_sha256_after": "a1fd2cbeb1078439548b6eac68be498d1cfcc5d3bb86e5ae81cdd8f21b011390",
+    "version_counters_incremented_by_initial_broadcast": 1010,
+    "all_frozen_values_byte_exact": true
+  },
+  "configuration_sha256": "9d4c9fdd44d2f8ad4ff05fb57173a1746ce507fb3b7b7c3794054823e866bf6e"
+}

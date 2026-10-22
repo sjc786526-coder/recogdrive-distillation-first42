@@ -1,0 +1,9 @@
+{
+  "status": "PASS_EXACT_TAR_TARGETS_THREADED_READER_AND_CHECKPOINT",
+  "time": "2026-10-22T04:06:39.823485+00:00",
+  "unique_scenes": 24,
+  "threaded_reads": 48,
+  "all_original_target_arrays_bitwise_equal": true,
+  "checkpoint_trainable_parameters": 34008448,
+  "cross_A800_model_execution_tested": false
+}

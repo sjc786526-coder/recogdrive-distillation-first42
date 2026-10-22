@@ -1,0 +1,4 @@
+defaults:
+  - scene_filter: generated_epoch9
+
+data_split: generator

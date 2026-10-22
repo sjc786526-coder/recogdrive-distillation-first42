@@ -1,0 +1,27 @@
+{
+  "status": "ALL_RANKS_TRAINING_COMPLETE_REQUIRES_FULL_EVALUATION",
+  "time": "2026-10-22T02:42:01.441152+00:00",
+  "best": {
+    "checkpoint": {
+      "path": "runs/distillation_main_v4_T/checkpoints/step005336_epoch04_micro000000.pt",
+      "sha256": "cab34d4e4cac8a175ea6fd855b5314a3d01ab435644bc4dad7236b632c6c7c2a",
+      "global_step": 5336,
+      "epoch": 4,
+      "next_micro": 0
+    },
+    "PDMS": 94.49475147433827,
+    "gain": 0.0587855372281939,
+    "epoch": 4,
+    "global_step": 5336,
+    "development_summary": "runs/distillation_main_v4_T/development/epoch04/SUMMARY.json"
+  },
+  "final_matched_exposure_checkpoint": {
+    "path": "runs/distillation_main_v4_T/checkpoints/step006670_epoch05_micro000000.pt",
+    "sha256": "e3d5a53c62373270caee8e2aacdfb28605773c34c5234410c3529c68566bed6a",
+    "global_step": 6670,
+    "epoch": 5,
+    "next_micro": 0
+  },
+  "world_size": 16,
+  "configuration_sha256": "9d4c9fdd44d2f8ad4ff05fb57173a1746ce507fb3b7b7c3794054823e866bf6e"
+}

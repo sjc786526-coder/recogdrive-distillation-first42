@@ -1,0 +1,501 @@
+{
+  "status": "COMPLETE_OBSERVATIONAL_TEACHER_GEOMETRY",
+  "time": "2026-10-21T13:35:54.382224+00:00",
+  "groups": {
+    "exploration_I": {
+      "cases": 49472,
+      "mean_gain": 2.061468637626009,
+      "gain_quantiles": [
+        1.0131635352905732e-05,
+        0.19444168077190072,
+        0.4776629244972175,
+        1.1512360935648798,
+        2.4190846009501685,
+        41.666666666666664,
+        100.0
+      ],
+      "initial_H_MSE_mean": 0.6808654191925387,
+      "initial_H_MSE_quantiles": [
+        0.00023955609117235456,
+        0.10927100408644903,
+        0.1687744649251302,
+        1.2592067173549109,
+        1.6924583217075897,
+        2.3323535528273815,
+        3.402240513392857
+      ],
+      "teacher_relative_edit_quantiles": [
+        0.005985572822655088,
+        0.12771279336949698,
+        0.15762303322062884,
+        0.4335835646402678,
+        0.5012225535567987,
+        0.586615763664871,
+        0.6957228228775179
+      ],
+      "gain_vs_initial_H_error_spearman": 0.5202018468982799
+    },
+    "exploration_P": {
+      "cases": 35867,
+      "mean_gain": 0.0,
+      "gain_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_H_MSE_mean": 0.0,
+      "initial_H_MSE_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "teacher_relative_edit_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_vs_initial_H_error_spearman": null
+    },
+    "exploration_E": {
+      "cases": 474,
+      "mean_gain": 0.0,
+      "gain_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_H_MSE_mean": 0.004806027158522956,
+      "initial_H_MSE_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.278056873139881
+      ],
+      "teacher_relative_edit_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5915298058841999
+      ],
+      "gain_vs_initial_H_error_spearman": null
+    },
+    "exploration_training_role_hard_I": {
+      "cases": 1847,
+      "mean_gain": 34.342048383015126,
+      "gain_quantiles": [
+        0.005890607754530652,
+        11.666666666666666,
+        27.44675341773005,
+        41.81551682121051,
+        80.0,
+        100.0,
+        100.0
+      ],
+      "initial_H_MSE_mean": 1.0122066930000722,
+      "initial_H_MSE_quantiles": [
+        0.0015550672440301804,
+        0.1225015840076265,
+        0.8815805199032738,
+        1.8519725981212798,
+        2.1982541852678574,
+        2.7042344261532736,
+        3.3578759765625
+      ],
+      "teacher_relative_edit_quantiles": [
+        0.015013277339327011,
+        0.13396818061299348,
+        0.3612499114584127,
+        0.528195875621764,
+        0.5732197006885578,
+        0.6341876254901531,
+        0.6886606546238859
+      ],
+      "gain_vs_initial_H_error_spearman": 0.34596642096110997,
+      "initial_H_loss_mass_fraction": 0.0555028590607395,
+      "teacher_gain_mass_fraction": 0.6219520323206849
+    },
+    "exploration_training_role_other_I": {
+      "cases": 47625,
+      "mean_gain": 0.8095582798363251,
+      "gain_quantiles": [
+        1.0131635352905732e-05,
+        0.18747138924008144,
+        0.4498537814755154,
+        1.043347765324858,
+        1.9975985184956475,
+        4.749310708945219,
+        19.609101360458407
+      ],
+      "initial_H_MSE_mean": 0.6680152914713311,
+      "initial_H_MSE_quantiles": [
+        0.00023955609117235456,
+        0.10892006283714657,
+        0.1629063924153646,
+        1.2458604213169644,
+        1.6568485863095237,
+        2.2926099702380958,
+        3.402240513392857
+      ],
+      "teacher_relative_edit_quantiles": [
+        0.005985572822655088,
+        0.12753135662110515,
+        0.15502768174408027,
+        0.4316032042048967,
+        0.49302023203953693,
+        0.5809842756498539,
+        0.6957228228775179
+      ],
+      "gain_vs_initial_H_error_spearman": 0.534824119068276,
+      "initial_H_loss_mass_fraction": 0.9444971409392552,
+      "teacher_gain_mass_fraction": 0.3780479676793252
+    },
+    "exploration_training_role_P": {
+      "cases": 35867,
+      "mean_gain": 0.0,
+      "gain_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_H_MSE_mean": 0.0,
+      "initial_H_MSE_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "teacher_relative_edit_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_vs_initial_H_error_spearman": null,
+      "initial_H_loss_mass_fraction": 0.0,
+      "teacher_gain_mass_fraction": 0.0
+    },
+    "validation_I": {
+      "cases": 9578,
+      "mean_gain": 2.6936242139096445,
+      "gain_quantiles": [
+        0.0002801904100069308,
+        0.19410978098875653,
+        0.48109158593903745,
+        1.1975744117968294,
+        2.55503016603699,
+        74.78032401885088,
+        100.0
+      ],
+      "initial_H_MSE_mean": 0.6776394545381995,
+      "initial_H_MSE_quantiles": [
+        0.00025676474684760685,
+        0.10926770346505302,
+        0.16213651384626115,
+        1.2460280064174107,
+        1.6700756835937502,
+        2.3001984933035713,
+        3.1457345145089284
+      ],
+      "teacher_relative_edit_quantiles": [
+        0.006400762907651186,
+        0.12777032395020002,
+        0.15474306883406502,
+        0.4318677749756,
+        0.4973344350810681,
+        0.5844023722607081,
+        0.671534840320984
+      ],
+      "gain_vs_initial_H_error_spearman": 0.5171945583227991
+    },
+    "validation_P": {
+      "cases": 7777,
+      "mean_gain": 0.0,
+      "gain_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_H_MSE_mean": 0.0,
+      "initial_H_MSE_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "teacher_relative_edit_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_vs_initial_H_error_spearman": null
+    },
+    "validation_E": {
+      "cases": 120,
+      "mean_gain": 0.0,
+      "gain_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_H_MSE_mean": 0.0,
+      "initial_H_MSE_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "teacher_relative_edit_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_vs_initial_H_error_spearman": null
+    },
+    "validation_training_role_hard_I": {
+      "cases": 416,
+      "mean_gain": 43.853851162912584,
+      "gain_quantiles": [
+        0.017144937724216103,
+        16.791739969542732,
+        37.30048785789833,
+        71.59225922095705,
+        95.0154606637577,
+        100.0,
+        100.0
+      ],
+      "initial_H_MSE_mean": 1.0832148315705659,
+      "initial_H_MSE_quantiles": [
+        0.00408587274097261,
+        0.12625661940801713,
+        0.939397931780134,
+        1.9244747198195684,
+        2.2252984328497023,
+        2.5949714936755957,
+        2.7732147507440477
+      ],
+      "teacher_relative_edit_quantiles": [
+        0.024842566538869182,
+        0.13569831285024359,
+        0.37108160471338913,
+        0.5350759163532186,
+        0.5748610009715955,
+        0.6098087667754495,
+        0.6283841597909893
+      ],
+      "gain_vs_initial_H_error_spearman": 0.39212690848252907,
+      "initial_H_loss_mass_fraction": 0.069427961112217,
+      "teacher_gain_mass_fraction": 0.7071136629170386
+    },
+    "validation_training_role_other_I": {
+      "cases": 9162,
+      "mean_gain": 0.8247468497113005,
+      "gain_quantiles": [
+        0.0002801904100069308,
+        0.18668767032761047,
+        0.45284189106718054,
+        1.0590690353469996,
+        2.033540498332281,
+        4.659937654238959,
+        16.666666666666664
+      ],
+      "initial_H_MSE_mean": 0.6592243315469898,
+      "initial_H_MSE_quantiles": [
+        0.00025676474684760685,
+        0.10835698990594773,
+        0.15748016357421873,
+        1.2274795677548362,
+        1.6150702078683037,
+        2.2589714727492534,
+        3.1457345145089284
+      ],
+      "teacher_relative_edit_quantiles": [
+        0.006400762907651186,
+        0.12738147559797525,
+        0.15273146418665043,
+        0.42892541756352875,
+        0.4877014225737355,
+        0.5771438259426244,
+        0.671534840320984
+      ],
+      "gain_vs_initial_H_error_spearman": 0.5309960105127082,
+      "initial_H_loss_mass_fraction": 0.9305720388877834,
+      "teacher_gain_mass_fraction": 0.292886337082964
+    },
+    "validation_training_role_P": {
+      "cases": 7777,
+      "mean_gain": 0.0,
+      "gain_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_H_MSE_mean": 0.0,
+      "initial_H_MSE_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "teacher_relative_edit_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "gain_vs_initial_H_error_spearman": null,
+      "initial_H_loss_mass_fraction": 0.0,
+      "teacher_gain_mass_fraction": 0.0
+    }
+  },
+  "early_64_diagnostic": [
+    {
+      "group": "H",
+      "pool": "all",
+      "cases": 64,
+      "Base_initial_H_MSE": 0.32037473135051275,
+      "student_H_MSE": 0.4308354726526886,
+      "diagnostic_only": true
+    },
+    {
+      "group": "H",
+      "pool": "I",
+      "cases": 31,
+      "Base_initial_H_MSE": 0.6614188002075102,
+      "student_H_MSE": 0.6728814667271029,
+      "diagnostic_only": true
+    },
+    {
+      "group": "H",
+      "pool": "P",
+      "cases": 33,
+      "Base_initial_H_MSE": 0.0,
+      "student_H_MSE": 0.20345893276460242,
+      "diagnostic_only": true
+    },
+    {
+      "group": "T",
+      "pool": "all",
+      "cases": 64,
+      "Base_initial_H_MSE": 0.32037473135051275,
+      "student_H_MSE": 0.5010907331015915,
+      "diagnostic_only": true
+    },
+    {
+      "group": "T",
+      "pool": "I",
+      "cases": 31,
+      "Base_initial_H_MSE": 0.6614188002075102,
+      "student_H_MSE": 0.7643470023908923,
+      "diagnostic_only": true
+    },
+    {
+      "group": "T",
+      "pool": "P",
+      "cases": 33,
+      "Base_initial_H_MSE": 0.0,
+      "student_H_MSE": 0.25378938922376343,
+      "diagnostic_only": true
+    },
+    {
+      "group": "HT",
+      "pool": "all",
+      "cases": 64,
+      "Base_initial_H_MSE": 0.32037473135051275,
+      "student_H_MSE": 0.43047510110773146,
+      "diagnostic_only": true
+    },
+    {
+      "group": "HT",
+      "pool": "I",
+      "cases": 31,
+      "Base_initial_H_MSE": 0.6614188002075102,
+      "student_H_MSE": 0.6744326165606899,
+      "diagnostic_only": true
+    },
+    {
+      "group": "HT",
+      "pool": "P",
+      "cases": 33,
+      "Base_initial_H_MSE": 0.0,
+      "student_H_MSE": 0.20130288962161902,
+      "diagnostic_only": true
+    }
+  ],
+  "quantile_levels": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    0.9,
+    0.99,
+    1
+  ],
+  "all_P_targets_are_exact_Base_interfaces": true,
+  "scope": "Train and validation metadata only; no model rerun; no test; no configuration change",
+  "initial_loss_mass_is_not_gradient_mass": true,
+  "correlation_is_not_causal_or_a_selection_rule": true
+}

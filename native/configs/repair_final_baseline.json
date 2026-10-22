@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "model": "ReCogDrive-2B-RL",
+  "checkpoint": "/mnt/yehr_workspace/ReCogDrive/ReCogDrive/recogdrive/ReCogDrive-2B-RL/ReCogDrive_Diffusion_Planner_2B_RL.ckpt",
+  "checkpoint_sha256": "23fb949b10387efeff87e093703d5faf41b61b9e5ead16d4076661e3c7c08a20",
+  "vlm": "/mnt/yehr_workspace/ReCogDrive/ReCogDrive/recogdrive/ReCogDrive-VLM-2B",
+  "vlm_sha256": {
+    "added_tokens.json": "f2008ed2a42163fdfe6e1942bf8d1e901bb877384c5ad740a8ab7f31f857e91e",
+    "all_results.json": "46c60e3d2fa48423bd9f1cd749d7704dc3bf60b8ba9d255785084941ee41199d",
+    "config.json": "6c7249180e5312db63e2279d06232a920f077157d56491bb59de319ed37c8656",
+    "configuration_intern_vit.py": "22dd687a5f142985407675fc6b1dc688c2ded93e54192543ecf28ef495a6efa8",
+    "configuration_internvl_chat.py": "e68305f4777a07f19b747c5034d9cf13be62ccd504c14aba0e0320c1d5f032fb",
+    "conversation.py": "b1b9f280e9cb9211e519e2b8071002b57cc742aadb2f49b05fa674ee3c7d83ee",
+    "generation_config.json": "69d76e6b0a3b31f0de871f8f5b968957e0532fd9b17214aabf151da4bdbe1804",
+    "model.safetensors": "79fb39297e322cd2d3dc68d4f23b86ff85806b336a4d5d0ed5db9b66e4034a3c",
+    "modeling_intern_vit.py": "1978e330ea5533dda4d1379096aded271fc741347fc48cb4924846b56a2a6a4b",
+    "modeling_internvl_chat.py": "5d8f26ccfeb8434c0bcc295050725add4b2f2b0ffb4d1ab550c877a648386597",
+    "special_tokens_map.json": "1f6bc2d8338493b8e0ad8da35655b592c0bc6d41e1deae60f3c57f21599045f2",
+    "tokenizer_config.json": "23c362651f75758f131d4798dd8fe3afe2c376063f5c514c5df46c20919db82c",
+    "train_results.json": "46c60e3d2fa48423bd9f1cd749d7704dc3bf60b8ba9d255785084941ee41199d",
+    "trainer_state.json": "2aca801a23b10fde07397a7e2b91c869ed727d33d1fba1af326ad9e4fd9d6b26",
+    "vocab.json": "87a257b04b17642a0688c98cd1df89c398bda4fee532d6f88b38a659ecb4ac8d"
+  },
+  "cache_protocol_sha256": "cec3b46cf3f14c06068f9ec62b8d33e2abcb4ab1640297b06912a12aa5195d08",
+  "cache_policy_sha256": "0dba6063c4ce6fd5435d61fb80802895de8ed93f6b6c4a09884666d508c7b249",
+  "feature_cache_policy": "Read-only 1010 VLM cache, original schema verified by dedicated adapter; all RL trajectories/scores freshly computed",
+  "cohort": "navtest",
+  "samples": 12146,
+  "source_logs": 136,
+  "manifest_sha256": "ed3cffe2d3951c72eb2a57ab2d2a8689af9aacc5709c2a856bf26676bf2538f9",
+  "source_snapshot_sha256": "87cc987a1a3208a3246e6b26d27f658a414fa409606fa3247a13d5a71d7789fe",
+  "model_commit": "175c71818e15d963a2a19a36e6dfe16d5bb6d3a4",
+  "root_seed": 20261008,
+  "seed_index": 0,
+  "seed_formula": "int(sha256(f\"{token}|20261008|{j}\").hexdigest()[:8],16)",
+  "batch_size": 1,
+  "planner_dtype": "float32",
+  "autocast": false,
+  "mode": "eval",
+  "deterministic": false,
+  "grpo_training": false,
+  "cache_hidden_state": true,
+  "sampling_method": "ddim",
+  "denoising_steps": 5,
+  "expected_timesteps": [
+    80,
+    60,
+    40,
+    20,
+    0
+  ],
+  "scoring": {
+    "proposal_sampling": {
+      "num_poses": 40,
+      "interval_length": 0.1
+    },
+    "scorer": {
+      "progress_weight": 5.0,
+      "ttc_weight": 5.0,
+      "comfortable_weight": 2.0,
+      "driving_direction_weight": 0.0
+    }
+  },
+  "quality_thresholds": {
+    "failure_lt": 0.7,
+    "high_quality_gt": 0.9
+  },
+  "nodes": 2,
+  "devices_per_node": 16,
+  "total_ranks": 32,
+  "no_navtest_access": false,
+  "shared_reference_source": "/mnt/yehr_workspace/ReCogDrive/ReCogDrive/recogdrive",
+  "monitor_interval_seconds": 60,
+  "seed_indices": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "test_selection_lock_sha256": "bdcf9007bb40bc3d9e3e3386a3df3ef1b7b723c0a7f95e11ab2d8de2d30125aa",
+  "test_cache_execution_protocol_sha256": "a76e85f384265080840a8a7fe59ab53affdc00cf008bd83d883d6c2f6851ba58",
+  "parent_baseline_config_sha256": "8b71ce42ed83cdbbba011528bc1014f621f9f5f3333716ac6cbacafc8e721e83",
+  "manifest_format": "JSON frozen final test panel",
+  "identity": "4db48729824234ee39f89bf46b732312186b3822b8f6b411b2fc4fe7a03cf336"
+}

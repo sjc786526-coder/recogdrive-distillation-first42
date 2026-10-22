@@ -1,0 +1,73 @@
+{
+  "status": "PASS_REAL_DELIVERY_COPY_BASE_H_T_HT_REPLAY",
+  "time": "2026-10-22T04:11:27.495628+00:00",
+  "device": "PPU-ZW810E",
+  "scenes": 2,
+  "branches": 4,
+  "noises": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "actual_trajectories": 40,
+  "checks": [
+    {
+      "group": "Base",
+      "global_index": 0,
+      "trajectories_exact": true,
+      "scores_exact": true
+    },
+    {
+      "group": "Base",
+      "global_index": 4,
+      "trajectories_exact": true,
+      "scores_exact": true
+    },
+    {
+      "group": "H",
+      "global_index": 0,
+      "trajectories_exact": true,
+      "scores_exact": true,
+      "interface_MSE_exact": true
+    },
+    {
+      "group": "H",
+      "global_index": 4,
+      "trajectories_exact": true,
+      "scores_exact": true,
+      "interface_MSE_exact": true
+    },
+    {
+      "group": "T",
+      "global_index": 0,
+      "trajectories_exact": true,
+      "scores_exact": true,
+      "interface_MSE_exact": true
+    },
+    {
+      "group": "T",
+      "global_index": 4,
+      "trajectories_exact": true,
+      "scores_exact": true,
+      "interface_MSE_exact": true
+    },
+    {
+      "group": "HT",
+      "global_index": 0,
+      "trajectories_exact": true,
+      "scores_exact": true,
+      "interface_MSE_exact": true
+    },
+    {
+      "group": "HT",
+      "global_index": 4,
+      "trajectories_exact": true,
+      "scores_exact": true,
+      "interface_MSE_exact": true
+    }
+  ],
+  "A800_validated": false,
+  "source_assets_modified": false
+}

@@ -1,0 +1,136 @@
+{
+  "status": "PASS_COMPLETE_MATCHED_EXPOSURE_DDP_TRAINING",
+  "time": "2026-10-22T01:08:14.757883+00:00",
+  "group": "H",
+  "configuration_sha256": "e9baba6b3d546404544e2a2e2c3e7f2808884a798e58ad1fea7514227fdf683a",
+  "ranks": 16,
+  "optimizer_steps": 6670,
+  "epochs": 5,
+  "global_scene_exposures": 426880,
+  "unique_training_scenes": 85339,
+  "tail_repeated_exposures": 185,
+  "validation_gradient_examples": 0,
+  "GT_used": false,
+  "checkpoint_selection_uses_test_or_new_noise": false,
+  "frozen_original_parameters_unchanged": true,
+  "rank_proofs": [
+    {
+      "path": "runs/distillation_main_v4_H/ranks/rank00/TRAINING_COMPLETE.json",
+      "sha256": "284df8499a038028d429948538c13b8121dfc7d3ec7ee59747e513a70f04046c"
+    },
+    {
+      "path": "runs/distillation_main_v4_H/ranks/rank01/TRAINING_COMPLETE.json",
+      "sha256": "d925bbb947428a1b0e08e9097e384ef50c2e41f804e60bb34bb32353e12a62ac"
+    },
+    {
+      "path": "runs/distillation_main_v4_H/ranks/rank02/TRAINING_COMPLETE.json",
+      "sha256": "70f14c6397e4ba9558a2befa6e63b184fe1bab565c74f96d25689fb8854eae85"
+    },
+    {
+      "path": "runs/distillation_main_v4_H/ranks/rank03/TRAINING_COMPLETE.json",
+      "sha256": "141e5cc168922d5ba4bcfd1ef33213fc4d9bb4917660f94fe29c902adf92c766"
+    },
+    {
+      "path": "runs/distillation_main_v4_H/ranks/rank04/TRAINING_COMPLETE.json",
+      "sha256": "44ccc5599bdcf2667ab72e6bed111d36abbd80c55655d8a315f4c59a33b7d1a1"
+    },
+    {
+      "path": "runs/distillation_main_v4_H/ranks/rank05/TRAINING_COMPLETE.json",
+      "sha256": "c1a2711d0f58d2073f81cd61cf0bc3efc754696c683d71188af7d8abfac93e24"
+    },
+    {
+      "path": "runs/distillation_main_v4_H/ranks/rank06/TRAINING_COMPLETE.json",
+      "sha256": "b562cad8b6c102291133e8ffdeaa5931d61dcb16b665e64ec9dd10a24a6434bd"
+    },
+    {
+      "path": "runs/distillation_main_v4_H/ranks/rank07/TRAINING_COMPLETE.json",
+      "sha256": "3740a1c1361938ace8030bf7478e3b30b5628abed73c40586b828e03244a1d8a"
+    },
+    {
+      "path": "runs/distillation_main_v4_H/ranks/rank08/TRAINING_COMPLETE.json",
+      "sha256": "2345d74bb89b338ff9bd2be39d3775837a43ba6a6f243438ec756e080ab831ff"
+    },
+    {
+      "path": "runs/distillation_main_v4_H/ranks/rank09/TRAINING_COMPLETE.json",
+      "sha256": "d88a381ad284e65b431c6f91ac92f266b9fea05af618ba14080db7c79399bcaa"
+    },
+    {
+      "path": "runs/distillation_main_v4_H/ranks/rank10/TRAINING_COMPLETE.json",
+      "sha256": "4bd23f892d16e74ba386afe991852f9fca1b4730e6273a96f30a33722eb31de1"
+    },
+    {
+      "path": "runs/distillation_main_v4_H/ranks/rank11/TRAINING_COMPLETE.json",
+      "sha256": "837c1a8e300ec2fa697f11c040d857165181a33c33312f5cd1bbd1f1c92f464e"
+    },
+    {
+      "path": "runs/distillation_main_v4_H/ranks/rank12/TRAINING_COMPLETE.json",
+      "sha256": "addfd255dc6fba70c27db03a6efb8fba0576ebd5d54066b011dceaf8d766c92c"
+    },
+    {
+      "path": "runs/distillation_main_v4_H/ranks/rank13/TRAINING_COMPLETE.json",
+      "sha256": "f650cb89d25dad478847c987bf737f03518f621d24a3697a48a19ce2082cd542"
+    },
+    {
+      "path": "runs/distillation_main_v4_H/ranks/rank14/TRAINING_COMPLETE.json",
+      "sha256": "483b9a02d4738c7807ea60a6e89d05602a376d7e0541923fd9118da7c554371c"
+    },
+    {
+      "path": "runs/distillation_main_v4_H/ranks/rank15/TRAINING_COMPLETE.json",
+      "sha256": "63fb8b446493ddbf0cad2eb53b4bb6e496957e3ba2846b372ad20ba59379280a"
+    }
+  ],
+  "checkpoints": [
+    {
+      "path": "runs/distillation_main_v4_H/checkpoints/step006670_epoch05_micro000000.pt",
+      "sha256": "c02902c63571920dc89099b9a9117b9f68e5f69953dc8c13b6c64ac524c8a20a",
+      "global_step": 6670,
+      "epoch": 5,
+      "next_micro": 0,
+      "trainable_tensors": 592,
+      "all_trainable_values_finite": true
+    },
+    {
+      "path": "runs/distillation_main_v4_H/checkpoints/step005336_epoch04_micro000000.pt",
+      "sha256": "2a813bf2a230db44b67c246720fb01d2ef409650088bd1a65ec7923f33284e70",
+      "global_step": 5336,
+      "epoch": 4,
+      "next_micro": 0,
+      "trainable_tensors": 592,
+      "all_trainable_values_finite": true
+    }
+  ],
+  "development_endpoints": [
+    {
+      "PDMS": 94.54032859423943,
+      "epoch": 1,
+      "path": "runs/distillation_main_v4_H/development/epoch01/SUMMARY.json",
+      "sha256": "7757b0946d23c16f366c2ae42ace7fcb55503c7b504c265f28095ed4b5bfb96b"
+    },
+    {
+      "PDMS": 94.438301250749,
+      "epoch": 2,
+      "path": "runs/distillation_main_v4_H/development/epoch02/SUMMARY.json",
+      "sha256": "e40765da1e590675442ff971df72fb07dcbfc6f8bdcfe93476af3db6018d80a8"
+    },
+    {
+      "PDMS": 94.54310610700439,
+      "epoch": 3,
+      "path": "runs/distillation_main_v4_H/development/epoch03/SUMMARY.json",
+      "sha256": "c501eb06a3c9d8ef89a08b1613f5b489f3853cf870c989114df276a33f928e1e"
+    },
+    {
+      "PDMS": 94.66853468262393,
+      "epoch": 4,
+      "path": "runs/distillation_main_v4_H/development/epoch04/SUMMARY.json",
+      "sha256": "bec5ecd740d23f86ed0b82a2d14b2de23036a6f9ea0ecfa312eb0fc4c4d0edd5"
+    },
+    {
+      "PDMS": 94.52549121462198,
+      "epoch": 5,
+      "path": "runs/distillation_main_v4_H/development/epoch05/SUMMARY.json",
+      "sha256": "41df9783dda19a3e56f9d091be2bed7e42ff05ca7062f7324fbc7816567fcd33"
+    }
+  ],
+  "source_complete_sha256": "ef90f813684e593ad722585f1741b79e1818d6ade5f5f781c6ea667cf451d00f",
+  "evaluation_still_required": true
+}

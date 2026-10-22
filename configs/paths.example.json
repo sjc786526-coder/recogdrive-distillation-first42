@@ -1,0 +1,11 @@
+{
+  "checkpoint": "/your/models/ReCogDrive_Diffusion_Planner_2B_RL.ckpt",
+  "vlm": "/your/models/ReCogDrive-VLM-2B",
+  "maps": "/your/navsim/maps",
+  "navtrain_logs": "/your/navsim/trainval_navsim_logs",
+  "navtrain_sensor": "/your/navsim/trainval_sensor_blobs",
+  "navtrain_metric": "/your/navsim/metric_cache_train",
+  "navtest_logs": "/your/navsim/test_navsim_logs",
+  "navtest_sensor": "/your/navsim/test_sensor_blobs",
+  "navtest_metric": "/your/navsim/metric_cache"
+}

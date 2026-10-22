@@ -1,0 +1,9 @@
+paths.local.json
+outputs/
+runtime/
+private/
+data/
+*.partial
+*.tmp
+__pycache__/
+*.pyc

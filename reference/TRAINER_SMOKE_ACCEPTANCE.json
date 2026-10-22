@@ -1,0 +1,14 @@
+{
+  "status": "PASS_PORTABLE_TRAINER_REAL_DDP_STEP",
+  "time": "2026-10-22T04:15:42.438558+00:00",
+  "world_size": 1,
+  "global_batch": 2,
+  "exploration_training_scenes": 2,
+  "optimizer_steps": 1,
+  "engineering_only": true,
+  "finite_loss": 1.245558261871338,
+  "gradient_norm": 8.395516395568848,
+  "original_frozen_weights_verified": true,
+  "checkpoint": "ee67f2013ed10ca5babca2ec8cdb831b72e8ceaacb91cf19d4a3ec63e68601a8",
+  "A800_or_multicard_tested": false
+}

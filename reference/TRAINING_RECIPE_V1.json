@@ -1,0 +1,131 @@
+{
+  "status": "VERIFIED_FROZEN_TRAINING_RECIPE_FOR_REPORT",
+  "time": "2026-10-22T01:10:40.279239+00:00",
+  "configs": {
+    "H": {
+      "path": "configs/distillation_main_v4/H.json",
+      "sha256": "e9baba6b3d546404544e2a2e2c3e7f2808884a798e58ad1fea7514227fdf683a"
+    },
+    "T": {
+      "path": "configs/distillation_main_v4/T.json",
+      "sha256": "9d4c9fdd44d2f8ad4ff05fb57173a1746ce507fb3b7b7c3794054823e866bf6e"
+    },
+    "HT": {
+      "path": "configs/distillation_main_v4/HT.json",
+      "sha256": "b2e8d6a9fb9f019aefddb35280e1f415fef7e43d118f2d621e2c53cb943a9fb6"
+    }
+  },
+  "teacher": "first42 frozen R2, no GT",
+  "teacher_snapshot_sha256": "c6d5f9ec1e7eac2202c33458e485d92ed420076527dd89be82f1f84c72157c1a",
+  "train_unique_scenes": 85339,
+  "train_scene_mix": {
+    "other_repair": {
+      "scenes": 47625,
+      "percentage": 55.806840951968034,
+      "global_exposures": 238236,
+      "exposure_percentage": 55.80865817091454
+    },
+    "preservation": {
+      "scenes": 35867,
+      "percentage": 42.02884964670315,
+      "global_exposures": 179406,
+      "exposure_percentage": 42.02726761619191
+    },
+    "hard_repair": {
+      "scenes": 1847,
+      "percentage": 2.164309401328818,
+      "global_exposures": 9238,
+      "exposure_percentage": 2.1640742128935533
+    }
+  },
+  "excluded_exploration_scenes": 474,
+  "validation_scenes": 17475,
+  "validation_gradient_examples": 0,
+  "global_exposures": 426880,
+  "tail_repeated_exposures": 185,
+  "parameter_counts": {
+    "VLM_to_action_full": 590208,
+    "VLM_LoRA": 24756224,
+    "visual_to_language_full": 8662016
+  },
+  "LoRA_parameter_counts": {
+    "vision": 6291456,
+    "language": 18464768
+  },
+  "trainable_parameters": 34008448,
+  "frozen_original_parameters": 2122721028,
+  "vision_layers": 24,
+  "language_layers": 28,
+  "LoRA_modules": 292,
+  "LoRA_rank": 16,
+  "LoRA_alpha": 32,
+  "LoRA_dropout": 0.0,
+  "full_projection_modules": [
+    "backbone.model.mlp1.masters",
+    "agent.action_head.feature_encoder"
+  ],
+  "action_generation_frozen": true,
+  "loss_weights": {
+    "H": {
+      "lambda_H": 1.0,
+      "lambda_T": 0.0
+    },
+    "T": {
+      "lambda_H": 0.0,
+      "lambda_T": 1.0
+    },
+    "HT": {
+      "lambda_H": 1.0,
+      "lambda_T": 80.21022962075446
+    }
+  },
+  "interface_loss": "Full-token full-coordinate MSE; one per scene exposure",
+  "trajectory_loss": {
+    "position": "SmoothL1 mean",
+    "xy_scales_metres": [
+      40.0,
+      10.0
+    ],
+    "heading": "0.1*mean(1-cos(delta_heading))"
+  },
+  "optimizer": {
+    "optimizer": "AdamW",
+    "adam_betas": [
+      0.9,
+      0.999
+    ],
+    "adam_epsilon": 1e-08,
+    "weight_decay": 0.0,
+    "gradient_clip_norm": 1.0,
+    "lora_learning_rate": 5e-05,
+    "projection_learning_rate": 0.0001,
+    "warmup_steps": 200,
+    "minimum_lr_ratio": 0.1
+  },
+  "training": {
+    "world_size": 16,
+    "global_batch_size": 64,
+    "microbatch_size": 1,
+    "epochs": 5,
+    "initialization_seed": 2026102101,
+    "data_seed": 2026102102,
+    "loader_seed": 2026102104,
+    "noise_rule": "(epoch + seed(token,0)%5)%5; native whole stochastic DDIM stream isolated by fork_rng",
+    "gradient_checkpointing": true
+  },
+  "accumulation_steps": 4,
+  "optimizer_steps": 6670,
+  "no_hard_case_oversampling": true,
+  "no_GT": true,
+  "scope_alternatives_not_included": [
+    "full VLM finetuning",
+    "frozen vision",
+    "projection only"
+  ],
+  "sources": {
+    "scene_manifest_sha256": "bd8985957fc85ee1cb9bd6dd8e236f91511fd349fbd12e84e7a4b7763de13653",
+    "train_indices_sha256": "59698cad81377e8d00288a284c06d2a386e17d07f5cafe12e4ae31164e2d7e16",
+    "trainable_manifest_source": "runs/distillation_main_v4_H/ranks/rank00/PREFLIGHT.json",
+    "geometry_source": "analysis/teacher_geometry_v1/CASE_METADATA.json"
+  }
+}

@@ -1,0 +1,4 @@
+defaults:
+  - scene_filter: collision_fallback30_base_rerun
+
+data_split: trainval

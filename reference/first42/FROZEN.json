@@ -1,0 +1,41 @@
+{
+  "status": "FROZEN_FIRST42_TEACHER_SNAPSHOT",
+  "time": "2026-10-21T11:03:00.220228+00:00",
+  "candidate_entries": 42,
+  "pack_sha256": "6ebc7bb74eabd7549fead47e040163bae086645ee693015d78ff9f186d5e3da8",
+  "source_pack_sha256": "6ebc7bb74eabd7549fead47e040163bae086645ee693015d78ff9f186d5e3da8",
+  "train_summary": "analysis/first42_navtrain_v1/SUMMARY.json",
+  "train_summary_sha256": "89fc571422cbf216d587a7d07a893958cf4d26e7b66f71efa3d2636a4dee0092",
+  "test_reference_summary": "analysis/first42_navtest_v1/SUMMARY.json",
+  "test_reference_summary_sha256": "e149b4cf45c21189ed792d3892204babda25e7ff58e57cc13fe46df9dba3a60d",
+  "splits": {
+    "validation": 17475,
+    "exploration": 85813
+  },
+  "artifacts": {
+    "R1": {
+      "path": "teachers/first42_v1/R1.jsonl",
+      "sha256": "488c15226717adc3959f367d1c72e54d01c48c37dba521b982897cb6e969ed7c",
+      "scenes": 103288,
+      "targets": 516440
+    },
+    "R2": {
+      "path": "teachers/first42_v1/R2.jsonl",
+      "sha256": "edc689eae288680438f9f58852d9bdd9a1ab32609fa9d8c6216bb98fdfb690db",
+      "scenes": 103288,
+      "targets": 516440
+    },
+    "R3": {
+      "path": "teachers/first42_v1/R3.jsonl",
+      "sha256": "c8057c5a94e983d2b18df3c02c70b795b29005034b335dc8b44b4bf6af82702f",
+      "scenes": 103288,
+      "targets": 516440
+    }
+  },
+  "physical_arrays": "Immutable first42 run outputs; no duplicate multi-terabyte copy",
+  "test_targets_included_for_student_training": false,
+  "R3_report_evaluates_S3S4_only": true,
+  "later_live_best_updates_do_not_change_this_snapshot": true,
+  "new_teacher_snapshot_requires_explicit_user_request": true,
+  "all_sources_and_actual_execution_assets_preserved": true
+}

@@ -1,0 +1,42 @@
+{
+  "status": "PASS_ORIGINAL_DEVICE_NOISE_BANK_EXPORT",
+  "time": "2026-10-22T04:16:31.967727+00:00",
+  "device": "PPU-ZW810E",
+  "torch_version": "2.4.0",
+  "stored_golden_banks_bitwise_equal": true,
+  "initial_then_five_step_draws": true,
+  "planner_clips_step_noise": true,
+  "files": [
+    {
+      "cohort": "navtrain",
+      "file": "noise/navtrain_noise.npy",
+      "sha256": "35671a0615d631f5439419a2c4803e2a594db3255c9926ec40450eeb5a48b262",
+      "shape": [
+        103288,
+        5,
+        6,
+        1,
+        8,
+        3
+      ],
+      "dtype": "float32",
+      "bytes": 297469568
+    },
+    {
+      "cohort": "navtest",
+      "file": "noise/navtest_noise.npy",
+      "sha256": "3d91d45b64345a5e4c8429aec1ddd0f558e9aa97f8beb706973ea3bb53a94cb2",
+      "shape": [
+        12146,
+        10,
+        6,
+        1,
+        8,
+        3
+      ],
+      "dtype": "float32",
+      "bytes": 69961088
+    }
+  ],
+  "model_inference_not_recomputed": true
+}
